@@ -1,0 +1,24 @@
+{
+  "name": "node-red-contrib-demo-node-red-nodes-git",
+  "version": "1.0.0",
+  "description": "example demo node to load flow data from git storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red" : {
+        "nodes": {
+            "demo-node-red-nodes-git": "demo-node-red-nodes-git.js"
+        }
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrincipleOrganization/node-red-nodes-node-rednodes-github.git"
+  },
+  "author": "Neshyk I. V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrincipleOrganization/node-red-nodes-node-rednodes-github/issues"
+  },
+  "homepage": "https://github.com/PrincipleOrganization/node-red-nodes-node-rednodes-github#readme"
+}
